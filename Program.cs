@@ -23,6 +23,34 @@ Console.WriteLine("/ MP\t50\t\t\t\\");
 Console.WriteLine("/ GOLD\t1799\t\t\t\\");
 Console.WriteLine("/ EXP\t268\t\t\t\\");
 
+Console.Write("\n\n\n");
+// Bandera de México en texto
+
+Console.WriteLine("Bandera de México en texto");
+
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.Write("ME");
+Console.ForegroundColor = ConsoleColor.White;
+Console.Write("XI");
+Console.ForegroundColor = ConsoleColor.DarkRed;
+Console.Write("CO");
+
+Console.ResetColor();
+Console.WriteLine();
+
+// Bandera de México en Fondo
+Console.WriteLine("Bandera de México en texto");
+
+Console.BackgroundColor = ConsoleColor.DarkGreen;
+Console.ForegroundColor = ConsoleColor.Black;
+Console.Write("ME");
+Console.BackgroundColor = ConsoleColor.White;
+Console.Write("XI");
+Console.BackgroundColor = ConsoleColor.DarkRed;
+Console.Write("CO");
+
+Console.ResetColor();
+
 
 
 
