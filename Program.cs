@@ -12,7 +12,16 @@ Console.WriteLine("\\------------------\\");
 Console.WriteLine("/ Hp\tt100       /");
 Console.WriteLine("/    MP\tt50        \\");
 
+Console.Write("\n\n\n");
+
 //Ejercicio 2: modificar tabla
+Console.WriteLine("Ejercicio 2: modificar tabla");
+Console.WriteLine("/ Greg   \"El mago\" \t\t/");
+Console.WriteLine("\\------------------------------\\");
+Console.WriteLine("/ HP\t100\t\t\t/");
+Console.WriteLine("/ MP\t50\t\t\t\\");
+Console.WriteLine("/ GOLD\t1799\t\t\t\\");
+Console.WriteLine("/ EXP\t268\t\t\t\\");
 
 
 
