@@ -50,7 +50,125 @@ Console.BackgroundColor = ConsoleColor.DarkRed;
 Console.Write("CO");
 
 Console.ResetColor();
+Console.Write("\n\n\n");
 
+// --- 1. UCRANIA (Azul y Amarillo) ---
+// Texto
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.Write("UCRA");
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.Write("NIA");
+Console.ResetColor();
+Console.WriteLine();
+
+// Fondo
+Console.BackgroundColor = ConsoleColor.Blue;
+Console.ForegroundColor = ConsoleColor.White;
+Console.Write("UCRA");
+Console.BackgroundColor = ConsoleColor.Yellow;
+Console.ForegroundColor = ConsoleColor.Black;
+Console.Write("NIA");
+Console.ResetColor();
+Console.WriteLine("\n");
+
+
+// --- 2. COLOMBIA / ECUADOR (Amarillo, Azul, Rojo) ---
+// Texto
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.Write("COL");
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.Write("OM");
+Console.ForegroundColor = ConsoleColor.Red;
+Console.Write("BIA");
+Console.ResetColor();
+Console.WriteLine();
+
+// Fondo
+Console.BackgroundColor = ConsoleColor.Yellow;
+Console.ForegroundColor = ConsoleColor.Black;
+Console.Write("COL");
+Console.BackgroundColor = ConsoleColor.Blue;
+Console.ForegroundColor = ConsoleColor.White;
+Console.Write("OM");
+Console.BackgroundColor = ConsoleColor.Red;
+Console.Write("BIA");
+Console.ResetColor();
+Console.WriteLine("\n");
+
+
+// --- 3. ITALIA (Verde, Blanco, Rojo) ---
+// Texto
+Console.ForegroundColor = ConsoleColor.Green;
+Console.Write("ITA");
+Console.ForegroundColor = ConsoleColor.White;
+Console.Write("LIA");
+Console.ForegroundColor = ConsoleColor.Red;
+Console.Write("!!");
+Console.ResetColor();
+Console.WriteLine();
+
+// Fondo
+Console.BackgroundColor = ConsoleColor.Green;
+Console.ForegroundColor = ConsoleColor.Black;
+Console.Write("ITA");
+Console.BackgroundColor = ConsoleColor.White;
+Console.Write("LIA");
+Console.BackgroundColor = ConsoleColor.Red;
+Console.ForegroundColor = ConsoleColor.White;
+Console.Write("!!");
+Console.ResetColor();
+Console.WriteLine("\n");
+
+
+// --- 4. FRANCIA (Azul, Blanco, Rojo) ---
+// Texto
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.Write("FRA");
+Console.ForegroundColor = ConsoleColor.White;
+Console.Write("NC");
+Console.ForegroundColor = ConsoleColor.Red;
+Console.Write("IA");
+Console.ResetColor();
+Console.WriteLine();
+
+// Fondo
+Console.BackgroundColor = ConsoleColor.Blue;
+Console.ForegroundColor = ConsoleColor.White;
+Console.Write("FRA");
+Console.BackgroundColor = ConsoleColor.White;
+Console.ForegroundColor = ConsoleColor.Black;
+Console.Write("NC");
+Console.BackgroundColor = ConsoleColor.Red;
+Console.ForegroundColor = ConsoleColor.White;
+Console.Write("IA");
+Console.ResetColor();
+Console.WriteLine("\n");
+
+
+// --- 5. ALEMANIA (Negro, Rojo, Amarillo) ---
+// Texto
+Console.ForegroundColor = ConsoleColor.Gray;
+Console.Write("ALE");
+Console.ForegroundColor = ConsoleColor.Red;
+Console.Write("MA");
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.Write("NIA");
+Console.ResetColor();
+Console.WriteLine();
+
+// Fondo
+Console.BackgroundColor = ConsoleColor.Black;
+Console.ForegroundColor = ConsoleColor.White;
+Console.Write("ALE");
+Console.BackgroundColor = ConsoleColor.Red;
+Console.Write("MA");
+Console.BackgroundColor = ConsoleColor.Yellow;
+Console.ForegroundColor = ConsoleColor.Black;
+Console.Write("NIA");
+
+
+Console.ResetColor();
+Console.WriteLine();
 
 
 
